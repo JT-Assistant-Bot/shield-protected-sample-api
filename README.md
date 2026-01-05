@@ -43,6 +43,17 @@ Requests without a key are automatically rejected.
 
 ---
 
+## Try It (Free)
+
+Validate integration before purchasing:
+
+GET https://globalaienterprise-api-production.up.railway.app/free/validate
+
+Free usage is limited.
+When exhausted, a paid API key is required to continue.
+
+---
+
 ## ⚠️ Important
 
 This repository has **no security of its own**.
