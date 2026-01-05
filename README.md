@@ -1,24 +1,54 @@
-# Shield Protected Sample API
+# API Paywall & License Enforcement (Drop-in)
 
-## 🔐 Paid Access Required
+## 🔒 Paid Access Required
 
-This API is protected by GlobalAIEnterprise Shield.
+This repository provides a **production-ready API paywall** that you can attach to **any API** in minutes.
 
-All requests require a valid API key.
+It enforces:
+- API key validation
+- Paid access gating
+- License / usage enforcement
+- Hard block when payment is missing
 
-👉 Purchase access here:
+No dashboards.  
+No SDKs.  
+No vendor lock-in.
+
+---
+
+## 🚀 API Paywall for Paid Access & License Enforcement
+
+If you run an API and need to:
+- stop unauthorized usage
+- sell API access
+- enforce paid plans
+- block abuse without building auth systems
+
+👉 **This is the missing piece.**
+
+You add **one HTTP call** before serving data.  
+Remove it → your API becomes unsafe.
+
+---
+
+## 💳 Purchase API Access
+
+All requests require a valid paid API key.
+
+👉 **Buy access here:**  
 https://jathangkip.gumroad.com/l/vtagec
+You receive an API key immediately after purchase.
 
-Requests without a key will be rejected.
+Requests without a key are automatically rejected.
 
-This is a deliberately simple API.
+---
 
-It has no security of its own.
+## ⚠️ Important
 
-Every request is allowed or blocked by an external service:
-GlobalAIEnterprise Shield.
+This repository has **no security of its own**.
 
-If Shield is removed, this API becomes unsafe.
+Security is enforced entirely by **GlobalAIEnterprise Shield**.  
+If Shield is removed, protection is removed.
 
 ---
 
